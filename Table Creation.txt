@@ -1,7 +1,0 @@
-DROP TABLE IF EXISTS `t_content`;
-CREATE TABLE `t_content`  (
-  `id` bigint(0) NOT NULL AUTO_INCREMENT,
-  `contentDetail` json NULL COMMENT 'Content Details',
-  `createTime` datetime(0) NULL DEFAULT NULL COMMENT 'Create Time',
-  PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 71 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = 'Moments Details Table' ROW_FORMAT = Dynamic;
